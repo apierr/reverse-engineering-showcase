@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="Application\Multimedia\ModelBundle\Entity\BookAuthor" table="book_author">
+    <id name="bookId" type="integer" column="book_id"/>
+    <id name="authorId" type="integer" column="author_id"/>
+  </entity>
+</doctrine-mapping>
