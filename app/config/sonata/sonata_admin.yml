@@ -106,6 +106,15 @@ sonata_admin:
                     - sonata.demo.admin.color
                     - sonata.demo.admin.material
 
+            sonata.admin.group.books:
+                label:           Books
+                icon:  '<i class="fa fa-play-circle"></i>'
+                label_catalogue: MultimediaCoreBundle
+                items:
+                    - multimedia_core.admin.book
+                    - multimedia.admin.author
+                    - multimedia.admin.book_author
+
     assets:
         stylesheets:
             # The sandbox includes default pre-optimized version of some css and js
