@@ -1,0 +1,18 @@
+services:
+    multimedia_core.admin.book:
+        class: Application\Multimedia\CoreBundle\Admin\BookAdmin
+        arguments: [~, Application\Multimedia\ModelBundle\Entity\Book, MultimediaCoreBundle:BookAdmin]
+        tags:
+            - {name: sonata.admin, manager_type: orm, group: admin, label: Book}
+
+    multimedia.admin.author:
+        class: Application\Multimedia\CoreBundle\Admin\AuthorAdmin
+        arguments: [~, Application\Multimedia\ModelBundle\Entity\Author, MultimediaCoreBundle:AuthorAdmin]
+        tags:
+            - {name: sonata.admin, manager_type: orm, group: admin, label: Author}
+
+    multimedia.admin.book_author:
+        class: Application\Multimedia\CoreBundle\Admin\BookAuthorAdmin
+        arguments: [~, Application\Multimedia\ModelBundle\Entity\BookAuthor, MultimediaCoreBundle:BookAuthorAdmin]
+        tags:
+            - {name: sonata.admin, manager_type: orm, group: admin, label: BookAuthor}
