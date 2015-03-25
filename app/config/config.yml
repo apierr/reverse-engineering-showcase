@@ -45,6 +45,9 @@ imports:
     - { resource: sonata/sonata_customer.yml }
     - { resource: sonata/sonata_basket.yml }
 
+    # Multimedia bundles
+    - { resource: @MultimediaCoreBundle/Resources/config/services.yml }
+
 framework:
     #esi:                   ~
     translator:
