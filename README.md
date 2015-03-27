@@ -25,7 +25,7 @@
 
 1. Clone the following repository:
 
-        > git clone git@github.com:antonio-pierro/reverse-engineering-showcase.git
+        > git clone git@github.com:sonata-project/sandbox.git
 
 2. Composer Installation.
 
