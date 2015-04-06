@@ -49,6 +49,16 @@ You can use the built in server to start the demo:
 
         > app/console server:run localhost:9090
 
+### Pull requests
+
+1.  [Multimedia core bundle](https://github.com/antonio-pierro/reverse-engineering-showcase/pull/1)
+
+2. [MultimediaModelBundle](https://github.com/antonio-pierro/reverse-engineering-showcase/pull/2)
+
+3. [Administration service](https://github.com/antonio-pierro/reverse-engineering-showcase/pull/3)
+
+4. [Adding a tree-view to manage the books](https://github.com/antonio-pierro/reverse-engineering-showcase/pull/4)
+
 Tests
 -----
 
